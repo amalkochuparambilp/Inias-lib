@@ -13,7 +13,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📚 Library Bulk Barcode Generator")
+st.title("Library Barcode Generator")
 
 library_name = st.text_input(
     "Library Name",
@@ -35,7 +35,7 @@ count = st.number_input(
 
 generate = st.button("Generate Avery PDF")
 
-LABEL_WIDTH = 2.625 * inch
+LABEL_WIDTH = 3.625 * inch
 LABEL_HEIGHT = 1 * inch
 COLS = 3
 ROWS = 10
